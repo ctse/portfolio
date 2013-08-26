@@ -7,6 +7,7 @@ language: en-AU
 markdown: rdiscount
 paginate: 2
 baseurl: http://claratse.com
+keywords: "Clara Tse, Claira Tse, Claire Tse, Clare Tse, physdelia, sheetglass, anime, manga, otaku, artist, marketing, social media, web, designer, photography, kawaiikiri, onigirikiri, hanezawakirika, herbalinfusion, Sydney, Australia, Bachelor of Information Technology, BIT"
 
 permalink: /:title/
 timezone: Australia/Sydney
