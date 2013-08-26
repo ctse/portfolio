@@ -1,0 +1,228 @@
+---
+layout: nil
+---
+
+/*  MAIN RESET  ***************************************************************/
+
+html,body,h1,h2,h3,form,fieldset,nav ul,nav li {
+	background:transparent;
+  border:0px;
+  list-style-type:none;
+	margin:0px;
+	padding:0px;
+	vertical-align:baseline;
+  word-wrap:normal;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,nav,section {
+  display:block;
+}
+img {
+  display:inline; /* FIREFOX/NETSCAPE FIX */
+}
+
+/*  TOP LEVEL  ****************************************************************/
+
+html {
+  background-color:white;
+  padding:0 20px;
+  text-align:center; /* CENTERING FOR IE */
+}
+body {
+  background:white;
+  font:13px "Helvetica Neue","Helvetica","Liberation Sans",sans-serif;
+  margin:0px auto; /* CENTERING FOR EVERYONE ELSE */
+  padding-right:20px;
+  text-align:left; /* TO FIX CENTERING IE HACK ABOVE */
+  width:800px;
+}
+a {
+  color:#000;
+  text-decoration:none;
+}
+a:hover, a:active {
+  color:#888;
+  text-decoration:none;
+}
+hr {
+  background-color: #c1c1c1;
+  border: none;
+  height: 1px;
+  margin: 10px 0px 10px 0px;
+}
+dd {
+  padding-top:3px;
+  padding-bottom:10px;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  margin-left:20px;
+  color:#888;
+}
+h2,h3,h4 {
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+h3 {
+  border-bottom:1px dashed #94d6e8;
+}
+
+/*  TOP  **********************************************************************/
+
+header {
+  background-image:url("{{ site.assets }}/header.jpg");
+  border:none;
+  border:none;
+  width:800px;
+  height:200px;
+  text-align:left;
+  border-bottom:5px solid #94d6e8;
+}
+header nav {
+  background-color:#fff;
+  background-color: rgba(255,255,255,0.8);
+  font-size:11px;
+  letter-spacing:2px;
+  line-height:32px;
+  height:32px;
+  padding:0px 20px;
+  text-align:center;
+}
+header nav li {
+  display:inline;
+  text-align:center;
+}
+header nav li:after{
+  content:'';
+}
+header nav ul a {
+  text-transform:uppercase;
+/*  border-bottom:1px solid #94d6e8;*/
+  color:#000;
+}
+header nav li a {
+  display:inline-block;
+  line-height:32px;
+  width:15%;
+}
+header nav li a:hover {
+  background:#fff;
+  background-color: rgba(255,255,255,1);
+}
+/*header nav li:last-child {
+  margin-right:0px;
+}
+header nav ul li:hover, header nav ul li:active {
+  background-color:rgba(255,255,255,1);
+  height:32px;
+  padding:9px 5px 9px 10px;
+  margin:0px 10px 0px 5px;
+}
+header nav li:hover:last-child{
+  margin:0px 5px 0px 5px;
+}*/
+
+h1 { visibility:hidden; height:0px; }
+
+/*  HOME SECTION  *************************************************************/
+
+section {
+  margin:0px 50px 20px 50px;
+}
+
+/*  ARTICLES/PAGES  ***********************************************************/
+
+article, section {
+  padding-top:15px;
+  /*padding:45px 20px 20px 20px;
+  font-size:13px;*/
+}
+article img { 
+  display:inline;
+  max-width:500px;
+  border: 5px solid #000;
+}
+article a {
+  text-decoration:none;
+  color:#000;
+  border-bottom:1px solid #94d6e8;
+}
+article a:hover, article a:active {
+  color:#888;
+  text-decoration:none;
+  border-bottom:1px solid #94d6e8;
+}
+.article-meta {
+  margin-top:15px;
+}
+footer, .article-meta, #pagination, #pages {
+  font-size:11px;
+  color:#000;
+  letter-spacing:2px;
+}
+#pagination, #pages {
+  font-size:12px;
+  text-align:center;
+}
+#pages ul li {
+  display:inline;
+  width:100%;
+}
+
+.hometitle {
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-size:300%;
+}
+#self {
+  max-width:700px;
+
+  border:none;
+  border-top:1px solid #94d6e8;
+  border-bottom:1px solid #94d6e8;
+}
+.photograph {
+  font-size:10px;
+  line-height:10px;
+  letter-spacing:2px;
+  text-align:center;
+}
+.photograph img {
+  max-width:500px;
+  max-height:500px;
+}
+#aboutme {
+  float:right;
+  margin-top:-20px;
+}
+#aboutme img {
+  height:350px;
+}
+#socialmedia li {
+  display:inline;
+  list-style-type:none;
+}
+#socialmedia li:after {
+  content:"; ";
+}
+/*  FOOTER ********************************************************************/
+
+footer{
+  padding-bottom:40px;
+  border-top:5px solid #94d6e8;
+  margin-top:10px;
+  padding-top:55px;
+  background-image:url("{{ site.assets }}/footer.jpg");
+  background-repeat:no-repeat;
+  text-align:center;
+}
+footer a{
+  border-bottom:1px solid #94d6e8;
+}
+footer a:hover, footer a:active {
+  color:#888;
+  border-bottom:1px solid #94d6e8;
+}
+
+/*  EOF  **********************************************************************/

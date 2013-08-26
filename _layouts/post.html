@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article role="article">
+  <h2>{{ page.title }}</h2>
+  <div class="article-meta">
+    <a href="{{ site.baseurl }}{{ page.url }}"><date datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</date></a> &middot;
+    <a rel="tag" href="/{{ page.category }}">{{ page.category }}</a>
+  </div>
+  <div class="article-content">
+    {{ content }}
+  </div>
+</article>
+
+<hr />
+<!-- copied and modified from Rubenerd.com -->
+<nav id="pages">
+  <ul>{% if page.previous.url %}
+    <li><a rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}">&larr; Previous: {{ page.previous.title }}</a></li>{% endif %}
+    <li>&middot;</li>{% if page.next.url %}
+    <li><a rel="next" href="{{ site.baseurl }}{{ page.next.url }}">Next: {{ page.next.title }} &rarr;</a></li>{% endif %}
+  </ul>
+</nav>

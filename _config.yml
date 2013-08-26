@@ -1,0 +1,20 @@
+## Config, just as the title says
+## edited 2013.08.26
+
+name: "Clara Tse"
+description: "A portfolio of experience and past works for Clara Tse."
+language: en-AU
+markdown: rdiscount
+paginate: 2
+baseurl: http://claratse.com
+
+permalink: /:title/
+timezone: Australia/Sydney
+assets: https://dl.dropboxusercontent.com/u/158866275/personal
+
+author:
+  name: Clara Tse
+  url: http://claratse.com
+  twitter: hanezawakirika
+  adn: kiri
+  github: ctse
