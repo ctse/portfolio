@@ -278,8 +278,7 @@ footer a:hover, footer a:active {
   }
   
   #socialbar {
-    min-height:200px;
-    max-height:700px;
+    position:relative;
   }
   #socialbar li a {
     background-color:#ffccff;
