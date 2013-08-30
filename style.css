@@ -81,8 +81,6 @@ header {
   border-bottom:5px solid #94d6e8;
 }
 header nav, #socialbar {
-  background-color:#fff;
-  background-color: rgba(255,255,255,0.8);
   font-size:11px;
   letter-spacing:2px;
   line-height:32px;
@@ -103,6 +101,8 @@ header nav ul a, #socialbar ul a {
   color:#000;
 }
 header nav li a, #socialbar li a {
+  background-color:#fff;
+  background-color: rgba(255,255,255,0.8);
   display:inline-block;
   line-height:32px;
   width:15%;
@@ -258,6 +258,7 @@ footer a:hover, footer a:active {
     padding:0px;
     text-align:center;
     font-size:110%;
+    background:none;
   }
   header nav li, #socialbar li {
     display:inline;
@@ -266,6 +267,7 @@ footer a:hover, footer a:active {
     display:inline-block;
     width:100%;
     border-top:1px solid white;
+    background-color: rgba(255,255,255,0.8);
   }
   header nav li a:active, #socialbar li a:active {
     background:#fff;
@@ -276,7 +278,11 @@ footer a:hover, footer a:active {
   }
   
   #socialbar {
-    height:200px;
+    min-height:200px;
+    max-height:500px;
+  }
+  #socialbar li a {
+    background-color:#ffccff;
   }
 }
 
