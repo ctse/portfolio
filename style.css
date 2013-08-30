@@ -2,6 +2,8 @@
 layout: nil
 ---
 
+/* Version date 2013.08.30 */
+
 /*  MAIN RESET  ***************************************************************/
 
 html,body,h1,h2,h3,form,fieldset,nav ul,nav li {
@@ -78,7 +80,7 @@ header {
   text-align:left;
   border-bottom:5px solid #94d6e8;
 }
-header nav {
+header nav, #socialbar {
   background-color:#fff;
   background-color: rgba(255,255,255,0.8);
   font-size:11px;
@@ -88,24 +90,24 @@ header nav {
   padding:0px 20px;
   text-align:center;
 }
-header nav li {
+header nav li, #socialbar li {
   display:inline;
   text-align:center;
 }
-header nav li:after{
+header nav li:after, #socialbar li:after {
   content:'';
 }
-header nav ul a {
+header nav ul a, #socialbar ul a {
   text-transform:uppercase;
 /*  border-bottom:1px solid #94d6e8;*/
   color:#000;
 }
-header nav li a {
+header nav li a, #socialbar li a {
   display:inline-block;
   line-height:32px;
   width:15%;
 }
-header nav li a:hover {
+header nav li a:hover, #socialbar li a:hover {
   background:#fff;
   background-color: rgba(255,255,255,1);
 }
@@ -177,7 +179,6 @@ footer, .article-meta, #pagination, #pages {
 }
 #self {
   max-width:700px;
-
   border:none;
   border-top:1px solid #94d6e8;
   border-bottom:1px solid #94d6e8;
@@ -206,6 +207,26 @@ footer, .article-meta, #pagination, #pages {
 #socialmedia li:after {
   content:"; ";
 }
+
+
+
+/* Homepage */
+#socialbar {
+  /*background-color:#94d6e8;*/
+  background-color:#ffccff;
+}
+#socialbar ul a {
+  border:none;
+}
+#socialbar li a {
+  border:none;
+  text-transform:uppercase;
+}
+#socialbar li a:hover {
+  background:#fff;
+}
+
+
 /*  FOOTER ********************************************************************/
 
 footer{
