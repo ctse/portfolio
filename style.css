@@ -250,11 +250,11 @@ footer a:hover, footer a:active {
     width:100%;
   }
   header nav {
-    margin-top:17%;
+    margin-top:30px;
   }
   header nav, #socialbar {
     line-height:120%;
-    height:17%;
+    height:132px;
     padding:0px;
     text-align:center;
     font-size:120%;
