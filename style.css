@@ -42,7 +42,7 @@ a {
   text-decoration:none;
 }
 a:hover, a:active {
-  color:#fff;
+  color:#94d6e8;
   text-decoration:none;
 }
 span {
@@ -83,6 +83,14 @@ img {
 .photograph p {
   padding:0px;
   margin:0px;
+}
+#hack a {
+  text-transform:uppercase;
+  color:#fff;
+  letter-spacing:2px;
+}
+#hack a:hover {
+  color:#94d6e8;
 }
 
 /*  TOP  ---------------------------------------------------------------------*/
