@@ -212,7 +212,9 @@ footer, .article-meta, #pagination, #pages {
   color:#888;
 }
 
-
+#animeatuts {
+   padding-top:40px;
+}
 .fade {
    opacity: 0.7;
    color:#fff;
@@ -226,8 +228,6 @@ footer, .article-meta, #pagination, #pages {
 
 .pastworking li {
    display:inline-block;
-   //background-color:black;
-   //box-radius:5px;
 }
 .pastworking li img {
    margin:10px;
@@ -252,11 +252,29 @@ footer, .article-meta, #pagination, #pages {
    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+.pastworkingsites li em {
+   color:black;
+}
+.subpages li {
+   max-width:280px;
+   margin-left:100px;
+   margin-top:-10px;
+}
+.subpages img {
+   margin:10px;
+   max-width:25px;
+}
 .sitecontent {
    float:right;
    padding:10px;
    max-width:300px;
    margin:0px;
+}
+.seelivetext {
+   border-radius:5px;
+   line-height:400%;
+   padding:10px;
+   background-color:#333;
 }
 
 /*  FOOTER  ------------------------------------------------------------------*/
@@ -309,12 +327,17 @@ footer a:hover, footer a:active {
      margin-left:-30px;
   }
   .pastworkingsites li img {
-     margin-right:10px;
-     margin-bottom:10px;
+     margin:10px;
   }
   .pastworkingsites li div {
      float:none;
      margin:10px 0px;
+  }
+  .subpages img {
+     max-width:50px;
+  }
+  #animeatuts {
+     padding-top:0px;
   }
 }
 
