@@ -71,6 +71,13 @@ h1,h2,h3,h4 {
   text-transform:uppercase;
   color:#d3d3d3;
 }
+h5 {
+   padding:0px;
+   margin:0px;
+   color:black;
+   text-transform:uppercase;
+   font-size:14px;
+}
 img {
   max-width:150px;
   height:auto;
@@ -216,12 +223,32 @@ footer, .article-meta, #pagination, #pages {
       opacity: 1;
     }
 
-#designs li, #utsani li {
+.pastworking li {
    display:inline;
 }
-#designs li img, #utsani li img {
+.pastworking li img {
    margin:10px;
-   
+   border:1px solid #333;
+}
+.pastworkingsites li {
+   background-color:#efefef;
+   display:inline-block;
+   border-radius:5px;
+   width:100%;
+   list-style:none;
+   margin:10px 0px;
+   padding:0px;
+   max-height:152px;
+}
+.pastworkingsites li img {
+   float:left;
+   border:1px solid #555;
+}
+.sitecontent {
+   float:right;
+   padding:5px;
+   max-width:300px;
+   margin:0px;
 }
 
 /*  FOOTER  ------------------------------------------------------------------*/
