@@ -29,6 +29,7 @@ img {
 html {
   background-color:black;
   background-image:url("{{ site.assets }}/background.moulin.png");
+  background-attachment:fixed;
 }
 html:hover #home a{
   border-bottom:1px solid #94d6e8;
@@ -224,11 +225,16 @@ footer, .article-meta, #pagination, #pages {
     }
 
 .pastworking li {
-   display:inline;
+   display:inline-block;
+   background-color:black;
+   box-radius:5px;
 }
 .pastworking li img {
    margin:10px;
-   border:1px solid #333;
+   //border:1px solid #333;
+   -webkit-box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+   -moz-box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
 }
 .pastworkingsites li {
    background-color:#efefef;
@@ -242,7 +248,6 @@ footer, .article-meta, #pagination, #pages {
 }
 .pastworkingsites li img {
    float:left;
-   //border:1px solid #555;
    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
