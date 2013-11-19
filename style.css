@@ -226,8 +226,8 @@ footer, .article-meta, #pagination, #pages {
 
 .pastworking li {
    display:inline-block;
-   background-color:black;
-   box-radius:5px;
+   //background-color:black;
+   //box-radius:5px;
 }
 .pastworking li img {
    margin:10px;
