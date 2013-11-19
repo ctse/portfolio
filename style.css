@@ -254,7 +254,7 @@ footer, .article-meta, #pagination, #pages {
 }
 .sitecontent {
    float:right;
-   padding:5px;
+   padding:10px;
    max-width:300px;
    margin:0px;
 }
@@ -305,7 +305,16 @@ footer a:hover, footer a:active {
     width:90%;
   }
   .pastworkingsites li {
-     max-height:auto;
+     max-height:none;
+     margin-left:-30px;
+  }
+  .pastworkingsites li img {
+     margin-right:10px;
+     margin-bottom:10px;
+  }
+  .pastworkingsites li div {
+     float:none;
+     margin:10px 0px;
   }
 }
 
