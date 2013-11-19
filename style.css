@@ -245,6 +245,7 @@ footer, .article-meta, #pagination, #pages {
    margin:10px 0px;
    padding:0px;
    max-height:150px;
+   margin-bottom:40px;
 }
 .pastworkingsites li img {
    float:left;
