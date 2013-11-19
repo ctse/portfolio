@@ -216,6 +216,14 @@ footer, .article-meta, #pagination, #pages {
       opacity: 1;
     }
 
+#designs li, #utsani li {
+   display:inline;
+}
+#designs li img, #utsani li img {
+   margin:10px;
+   
+}
+
 /*  FOOTER  ------------------------------------------------------------------*/
 
 footer {
